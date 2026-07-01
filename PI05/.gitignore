@@ -1,0 +1,12 @@
+# Local cache root used by local_training/train_local.py
+.cache/
+
+# Standard Python ignores
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+openpi/.venv/
+
+# macOS
+.DS_Store
