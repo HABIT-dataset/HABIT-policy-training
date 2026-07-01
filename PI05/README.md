@@ -5,7 +5,7 @@ This repository contains a single-machine training setup for
 v2 dataset.
 
 The example pipeline targets the
-[`configint/HABIT`](https://huggingface.co/datasets/configint/HABIT)
+[`configinc/HABIT`](https://huggingface.co/datasets/configinc/HABIT)
 dataset (a bimanual human-robot interaction dataset on the Hub). A small
 subset (~10 episodes) is downloaded automatically for a quick local sanity
 check; the same scripts work on the full dataset by raising `HF_NUM_EPISODES`.

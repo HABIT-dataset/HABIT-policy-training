@@ -1,7 +1,7 @@
 # HABIT Policy Training
 
 Training code for the two vision-language-action (VLA) policies fine-tuned on the
-[**HABIT**](https://huggingface.co/datasets/configint/HABIT) dataset — a
+[**HABIT**](https://huggingface.co/datasets/configinc/HABIT) dataset — a
 large-scale bimanual, human-present robot manipulation dataset in LeRobot v2
 format.
 
@@ -40,11 +40,11 @@ The two policies expose these fields differently:
 
 - **π0.5** maps LeRobot columns to OpenPI inputs via env vars in
   `PI05/samples/envs/.env.habit` (`STATE_FIELDS`, `ACTION_FIELDS`, `IMAGE_KEYS`).
-  It can auto-download a subset of `configint/HABIT` from the Hub.
+  It can auto-download a subset of `configinc/HABIT` from the Hub.
 - **GR00T** reads a local LeRobot v2 directory via `--dataset_path` and maps
   fields through `Gr00t-N1.6/examples/HABIT/habit_config.py`. Download the
   dataset yourself first (e.g. `git clone` / `huggingface-cli download
-  configint/HABIT`) and point `--dataset_path` at the resulting directory.
+  configinc/HABIT`) and point `--dataset_path` at the resulting directory.
 
 ---
 
