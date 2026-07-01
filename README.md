@@ -29,7 +29,7 @@ same LeRobot v2 fields:
 
 - **State (14D):** per-arm end-effector Cartesian position (xyz 3D + rotation 3D)
   + gripper (1D), for the left and right arm.
-- **Action (14D):** per-arm end-effector **delta** (6D) + gripper (1D), left and right.
+- **Action (14D):** per-arm end-effector **delta action** (7D [xyz 3D, rotation 3D, gripper 1D]), left and right.
 - **Cameras (robot-side):** `front_view`, `left_wrist_view`, `right_wrist_view`.
 
 > The full HABIT dataset additionally ships two human-side camera streams
